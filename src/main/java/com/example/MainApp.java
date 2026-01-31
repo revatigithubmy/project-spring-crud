@@ -9,7 +9,7 @@ public class MainApp {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         UserController controller = context.getBean(UserController.class);
-        controller.createUser("Revati");
+        controller.createUser("Any");
         controller.listUsers();
     }
 }
